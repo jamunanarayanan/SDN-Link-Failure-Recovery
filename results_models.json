@@ -1,0 +1,314 @@
+{
+ "diamond4": {
+  "switches": 4,
+  "links": 4,
+  "hosts": 2,
+  "pairs": 2,
+  "mechs": {
+   "M1": {
+    "cases": 4,
+    "delivered": 4,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 3.0,
+    "reacted": 4,
+    "mean_stretch": 1.0,
+    "rules": 8,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 4,
+    "delivered": 2,
+    "recovery_rate": 50.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.0,
+    "rules": 8,
+    "groups": 6,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 4,
+    "delivered": 4,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.5,
+    "rules": 14,
+    "groups": 6,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 4,
+    "delivered": 4,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 4,
+    "mean_stretch": 1.0,
+    "rules": 12,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ },
+ "ring6": {
+  "switches": 6,
+  "links": 6,
+  "hosts": 6,
+  "pairs": 30,
+  "mechs": {
+   "M1": {
+    "cases": 54,
+    "delivered": 54,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 4.89,
+    "reacted": 54,
+    "mean_stretch": 2.333,
+    "rules": 36,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 54,
+    "delivered": 12,
+    "recovery_rate": 22.2,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.5,
+    "rules": 36,
+    "groups": 30,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 54,
+    "delivered": 54,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 2.778,
+    "rules": 66,
+    "groups": 30,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 54,
+    "delivered": 54,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 51,
+    "mean_stretch": 2.333,
+    "rules": 240,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ },
+ "ladder8": {
+  "switches": 8,
+  "links": 10,
+  "hosts": 8,
+  "pairs": 56,
+  "mechs": {
+   "M1": {
+    "cases": 112,
+    "delivered": 112,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 4.29,
+    "reacted": 112,
+    "mean_stretch": 1.571,
+    "rules": 64,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 112,
+    "delivered": 56,
+    "recovery_rate": 50.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.571,
+    "rules": 64,
+    "groups": 56,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 112,
+    "delivered": 112,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.786,
+    "rules": 120,
+    "groups": 56,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 112,
+    "delivered": 112,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 112,
+    "mean_stretch": 1.571,
+    "rules": 400,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ },
+ "grid3x3": {
+  "switches": 9,
+  "links": 12,
+  "hosts": 9,
+  "pairs": 72,
+  "mechs": {
+   "M1": {
+    "cases": 144,
+    "delivered": 144,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 4.06,
+    "reacted": 144,
+    "mean_stretch": 1.5,
+    "rules": 81,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 144,
+    "delivered": 84,
+    "recovery_rate": 58.3,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.579,
+    "rules": 81,
+    "groups": 72,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 144,
+    "delivered": 144,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.75,
+    "rules": 153,
+    "groups": 72,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 144,
+    "delivered": 144,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 144,
+    "mean_stretch": 1.5,
+    "rules": 504,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ },
+ "mesh10": {
+  "switches": 10,
+  "links": 15,
+  "hosts": 10,
+  "pairs": 90,
+  "mechs": {
+   "M1": {
+    "cases": 191,
+    "delivered": 191,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 4.45,
+    "reacted": 191,
+    "mean_stretch": 1.611,
+    "rules": 100,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 191,
+    "delivered": 110,
+    "recovery_rate": 57.6,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.44,
+    "rules": 100,
+    "groups": 90,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 191,
+    "delivered": 177,
+    "recovery_rate": 92.7,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.764,
+    "rules": 190,
+    "groups": 90,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 191,
+    "delivered": 191,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 177,
+    "mean_stretch": 1.663,
+    "rules": 694,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ },
+ "mesh12": {
+  "switches": 12,
+  "links": 18,
+  "hosts": 12,
+  "pairs": 132,
+  "mechs": {
+   "M1": {
+    "cases": 304,
+    "delivered": 304,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 4.45,
+    "reacted": 304,
+    "mean_stretch": 1.447,
+    "rules": 144,
+    "groups": 0,
+    "baseline_ok": true
+   },
+   "M2": {
+    "cases": 304,
+    "delivered": 185,
+    "recovery_rate": 60.9,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.409,
+    "rules": 144,
+    "groups": 132,
+    "baseline_ok": true
+   },
+   "M2+cb": {
+    "cases": 304,
+    "delivered": 304,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 0.0,
+    "reacted": 0,
+    "mean_stretch": 1.676,
+    "rules": 276,
+    "groups": 132,
+    "baseline_ok": true
+   },
+   "M3": {
+    "cases": 304,
+    "delivered": 304,
+    "recovery_rate": 100.0,
+    "flowmods_per_case": 1.0,
+    "reacted": 295,
+    "mean_stretch": 1.51,
+    "rules": 1028,
+    "groups": 0,
+    "baseline_ok": true
+   }
+  }
+ }
+}

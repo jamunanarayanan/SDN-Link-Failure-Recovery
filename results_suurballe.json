@@ -1,0 +1,60 @@
+{
+ "instances": 3000,
+ "with_disjoint_pair": 2198,
+ "suurballe_optimal": 2198,
+ "suurballe_valid_disjoint": 2198,
+ "two_step_found": 2183,
+ "two_step_missed": 15,
+ "two_step_optimal": 2160,
+ "two_step_mean_excess_pct_when_found": 0.18,
+ "timing": [
+  {
+   "topology": "grid 3x3",
+   "nodes": 9,
+   "links": 12,
+   "median_ms": 0.032
+  },
+  {
+   "topology": "grid 6x6",
+   "nodes": 36,
+   "links": 60,
+   "median_ms": 0.127
+  },
+  {
+   "topology": "grid 10x10",
+   "nodes": 100,
+   "links": 180,
+   "median_ms": 0.322
+  },
+  {
+   "topology": "grid 15x15",
+   "nodes": 225,
+   "links": 420,
+   "median_ms": 0.703
+  },
+  {
+   "topology": "grid 20x20",
+   "nodes": 400,
+   "links": 760,
+   "median_ms": 1.272
+  },
+  {
+   "topology": "ring+chords n=50",
+   "nodes": 50,
+   "links": 75,
+   "median_ms": 0.151
+  },
+  {
+   "topology": "ring+chords n=200",
+   "nodes": 200,
+   "links": 300,
+   "median_ms": 0.639
+  },
+  {
+   "topology": "ring+chords n=500",
+   "nodes": 500,
+   "links": 750,
+   "median_ms": 1.846
+  }
+ ]
+}
